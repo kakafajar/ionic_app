@@ -1,0 +1,20 @@
+
+
+<ion-content [fullscreen]="true" class="ion-padding login-page">
+
+  <div class="login-container">
+    <h2 class="login-title">Login</h2>
+
+    <ion-input placeholder="Email" [(ngModel)]="email" type="email"></ion-input>
+    <ion-input placeholder="Password" [(ngModel)]="password" type="password"></ion-input>
+
+    <ion-button expand="block" (click)="login()">Login</ion-button>
+
+    <p class="register-link">
+      Belum punya akun? <a (click)="goToRegister()">Daftar</a>
+    </p>
+  </div>
+
+</ion-content>
+
+

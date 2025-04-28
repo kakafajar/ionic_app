@@ -1,0 +1,36 @@
+.login-page {
+    --background: #e3f2fd;
+  }
+  
+  ::ng-deep ion-content.login-page::part(scroll) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 360px;
+    text-align: center;
+  }
+  
+  .login-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #2196f3;
+    font-weight: 600;
+  }
+  
+  ion-input {
+    margin-bottom: 1rem;
+  }
+  
+  ion-button {
+    margin-top: 1rem;
+  }
+  

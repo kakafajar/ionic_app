@@ -1,0 +1,13 @@
+
+<ion-content [fullscreen]="true" class="ion-padding register-page">
+  <div class="register-container">
+    <h2 class="register-title">Register</h2>
+
+    <ion-input placeholder="Email" [(ngModel)]="email" type="email"></ion-input>
+    <ion-input placeholder="Password" [(ngModel)]="password" type="password"></ion-input>
+
+    <ion-button expand="block" (click)="register()">Register</ion-button>
+    <ion-button fill="clear" expand="block" routerLink="/login">Sudah punya akun? Login</ion-button>
+  </div>
+</ion-content>
+
